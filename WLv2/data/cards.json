@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1768936514530,
+    "ownerId": 1768579788712,
+    "title": "Sugar - Donquixote Pirates",
+    "category": "One Piece",
+    "edition": "Royal Blood",
+    "psa": "bilinmiyor",
+    "price": 50,
+    "sellerEmail": "oytunozer80@gmail.com",
+    "images": [
+      "1768936514518-751140540.jpeg",
+      "1768936514526-396709413.jpeg"
+    ]
+  },
+  {
+    "id": 1768951182179,
+    "ownerId": 1768579788712,
+    "title": "Kangaskhan EX",
+    "category": "Pokemon",
+    "edition": "151 serisi",
+    "psa": "Bilinmiyor",
+    "price": 30,
+    "sellerEmail": "oytunozer80@gmail.com",
+    "images": [
+      "1768951182159-964028596.jpeg",
+      "1768951182173-121632225.jpeg"
+    ]
+  },
+  {
+    "id": 1768951271813,
+    "ownerId": 1768579788712,
+    "title": "The Seven Warlords of the Sea / Donquixote Pirates ",
+    "category": "One Piece",
+    "edition": "Royal Blood",
+    "psa": "Bilinmiyor",
+    "price": 45,
+    "sellerEmail": "oytunozer80@gmail.com",
+    "images": [
+      "1768951271799-517612985.jpeg",
+      "1768951271808-624771716.jpeg"
+    ]
+  },
+  {
+    "id": 1768952041061,
+    "ownerId": 1768579788712,
+    "title": "Mew EX",
+    "category": "Pokemon",
+    "edition": "151 serisi",
+    "psa": "Bilinmiyor",
+    "price": 1000,
+    "sellerEmail": "oytunozer80@gmail.com",
+    "images": [
+      "1768952041058-665025496.jpg",
+      "1768952041053-335591274.JPG"
+    ]
+  },
+  {
+    "id": 1768952232279,
+    "ownerId": 1768579788712,
+    "title": "Alakazam EX",
+    "category": "Pokemon",
+    "edition": "151 serisi",
+    "psa": "Bilinmiyor",
+    "price": 350,
+    "sellerEmail": "oytunozer80@gmail.com",
+    "images": [
+      "1768952232271-655636521.jpeg",
+      "1768952232276-968275152.jpeg"
+    ]
+  }
+]
