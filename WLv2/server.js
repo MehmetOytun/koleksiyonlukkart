@@ -3,13 +3,11 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
-// Body parsers
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Session (routes'tan önce olmalı)
 app.use(
   session({
     secret: "koleksiyonluk-kart-secret",
@@ -18,9 +16,8 @@ app.use(
   })
 );
 
-// Static klasörler
-app.use(express.static("public")); // /public/js, /public/uploads vs.
-app.use(express.static("views"));  // /index.html, /edit-card.html vb.
+app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "views")));
 
 // Routes
 const cardRoutes = require("./routes/cards");
@@ -29,12 +26,10 @@ app.use("/cards", cardRoutes);
 const authRoutes = require("./routes/auth");
 app.use("/auth", authRoutes);
 
-// Ana sayfa
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));
 });
 
-// Server
 app.listen(PORT, () => {
-  console.log(`Server çalışıyor: http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
